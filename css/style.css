@@ -1,0 +1,58 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #add8e6;
+    padding: 10px 0;
+}
+
+.header-top{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daa520;
+}
+
+.logo,
+ul,
+.login{
+    border: 2px dashed black ;
+    padding: 5px;
+}
+
+/* LOGO */
+.logo{
+    width: 20%;
+}
+/*Nav */
+nav{
+    width: 60%;  
+}
+
+/* Login */
+.login{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 0 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: inherit;
+
+}
