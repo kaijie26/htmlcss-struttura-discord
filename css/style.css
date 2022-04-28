@@ -76,5 +76,62 @@ nav{
     border: 2px dashed black ;
     
 }
+
+.gray{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* TEST */
+    height: 500px;
+
+}
+
+.white{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* TEST */
+    height: 500px;
+
+}
+
+section:last-child{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* TEST */
+    height: 700px;
+
+}
+
+.section-half-content{
+    width: 650px;
+    height: 450px;
+    background-color: #1e90ff;
+    border: 2px dashed black ;
     
+
+}
+   
+.section-content{
+    width: 390px;
+    height: 450px;
+    background-color: #ffc0cb;
+    border: 2px dashed black ;
+    
+}
+
+.last-section{
+    width: 1040px;
+    height: 650px;
+    background-color: #228b22;
+    border: 2px dashed black ;
+    
+}
    
